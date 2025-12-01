@@ -1,7 +1,7 @@
 # My Resume
 
 This is the [source code](./resume.typ) of my resume. Compiled versions can be
-found in the GitHub artefacts on each build.
+found in the GitHub artifacts on each build.
 
 ## Copyright and License
 

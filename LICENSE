@@ -1,17 +1,25 @@
-Copyright (c) Jonathan Sumner Evans (Sumner Evans). All Rights Reserved.
+Copyright (c) Carley Fant. All Rights Reserved.
 
-1. The PDF of this resume is the sole property of Sumner Evans. You may look at
-   the content to gain inspiration for your own purposes. You may not
-   redistribute the resume PDF without written consent from Sumner Evans (see
-   3).
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the source code contained in this repository (the "Source") to use,
+copy, modify, merge, publish, and distribute the Source, subject to the
+following conditions:
 
-2. You are free to use, modify, derive works from (i.e. compile the source),
-   and distribute the source of the resume but you must strip any references to
-   Sumner Evans from it.
-
-3. If you want to use anything in this repo for a reason not specified above,
-   you need to get written permission from Sumner Evans by contacting him at
-   the email on the resume.
-
-   Note that "written permission" means a document stating my approval of the
-   use and cryptographically signed with my GPG key: B50022FD.
+1. **Removal of Personal References**  
+   Any redistribution of the Source must remove Jonathan Sumner Evans' name,
+   likeness, contact details, and any other personally identifying information.
+2. **No Redistribution of Compiled Artifacts**  
+   The compiled PDF (or any other artefact produced from the Source that
+   retains Jonathan Sumner Evans' personal information) may not be shared,
+   sublicensed, or otherwise redistributed.
+3. **Attribution**  
+   Redistributions of the modified Source must include a notice stating that
+   the original template was created by Jonathan Sumner Evans and has been
+   altered to remove personal details.
+THE SOURCE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOURCE OR THE USE OR OTHER DEALINGS IN THE
+SOURCE.

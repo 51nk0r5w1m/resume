@@ -30,25 +30,25 @@
   gutter: 1em,
   align: bottom,
   [
-    = Jonathan Sumner Evans
-    #ti-mail() resume\@sumnerevans.com
-    | #ti-brand-matrix() \@sumner:nevarro.space
-    | #ti-map-pin() Denver, CO
+    = Carley Nicole Fant
+    #ti-mail() contact\@carleyfant.com
+    | #ti-file-phone() \678-313-1217
+    | #ti-map-pin() Atlanta, GA
   ],
   stack(
     spacing: 0.4em,
     [
-      #link("https://sumnerevans.com")[#ti-world() sumnerevans.com]
+      #link("https://outofscope.sh")[#ti-world() outofscope.sh]
     ],
     [
       #link(
-        "https://github.com/sumnerevans",
-      )[#ti-brand-linkedin() linkedin.com/in/sumnerevans]
+        "https://linked.com/in/carleyfant",
+      )[#ti-brand-linkedin() linkedin.com/in/carleyfant]
     ],
     [
       #link(
-        "https://github.com/sumnerevans",
-      )[#ti-brand-github() github.com/sumnerevans]
+        "https://github.com/51nk0r5w1m",
+      )[#ti-brand-github() github.com/51nk0r5w1m]
     ],
   ),
 )
@@ -103,10 +103,10 @@
 == #ti-briefcase-filled() WORK EXPERIENCE
 
 #work-experience(
-  "Senior Implementation Tech Lead",
-  "Can/Am Technologies",
-  "Highlands Ranch, CO",
-  datetime(year: 2025, month: 04, day: 01),
+  "IT Security Manager",
+  "Administrative Office of the Courts",
+  "Atlanta, GA",
+  datetime(year: 2025, month: 05, day: 01),
   datetime.today(),
 )
 
@@ -120,11 +120,11 @@
   and configuration-driven.
 
 #work-experience(
-  "Software Engineer",
-  "Beeper",
-  "Remote",
-  datetime(year: 2021, month: 07, day: 01),
-  datetime(year: 2025, month: 04, day: 01),
+  "Security Analyst",
+  "Administrative Office of the Courts",
+  "Atlanta, GA",
+  datetime(year: 2023, month: 11, day: 01),
+  datetime(year: 2025, month: 05, day: 01),
 )
 
 - Scaled our backend infrastructure from handling \<1,000 users to >100,000
