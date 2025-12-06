@@ -5,4 +5,5 @@ found in the GitHub artifacts on each build.
 
 ## Copyright and License
 
-**TL;DR:** Don't redistribute the PDF. You can use and modify the source code so long as you strip out all personal references. See the [`LICENSE`](./LICENSE) file for details.
+**TL;DR:** Don't redistribute the PDF. You can use and modify the source code so long as you strip out all personal references to me. See the [`LICENSE`](./LICENSE) file
+for details.

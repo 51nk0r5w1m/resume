@@ -1,0 +1,1 @@
+nix --extra-experimental-features 'nix-command flakes' run .#build && pdfinfo resume.pdf
