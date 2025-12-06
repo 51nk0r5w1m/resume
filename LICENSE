@@ -1,25 +1,3 @@
 Copyright (c) Carley Fant. All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of the source code contained in this repository (the "Source") to use,
-copy, modify, merge, publish, and distribute the Source, subject to the
-following conditions:
-
-1. **Removal of Personal References**  
-   Any redistribution of the Source must remove Jonathan Sumner Evans' name,
-   likeness, contact details, and any other personally identifying information.
-2. **No Redistribution of Compiled Artifacts**  
-   The compiled PDF (or any other artefact produced from the Source that
-   retains Jonathan Sumner Evans' personal information) may not be shared,
-   sublicensed, or otherwise redistributed.
-3. **Attribution**  
-   Redistributions of the modified Source must include a notice stating that
-   the original template was created by Jonathan Sumner Evans and has been
-   altered to remove personal details.
-THE SOURCE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOURCE OR THE USE OR OTHER DEALINGS IN THE
-SOURCE.
+THE SOURCE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER, LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOURCE OR THE USE OR OTHER DEALINGS IN THE SOURCE.
