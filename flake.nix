@@ -1,5 +1,5 @@
 {
-  description = "Sumner Evans' Resume";
+  description = "Carley Fant Resume";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";

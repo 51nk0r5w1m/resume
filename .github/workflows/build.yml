@@ -30,7 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          repository: sumnerevans/sumnerevans.com
+          repository: 51nk0r5w1m/5o5.sh
 
       - name: Update the resume
         uses: actions/download-artifact@v6

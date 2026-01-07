@@ -42,7 +42,7 @@
     ],
     [
       #link(
-        "https://linked.com/in/carleyfant",
+        "https://linkedin.com/in/carleyfant",
       )[#ti-brand-linkedin() linkedin.com/in/carleyfant]
     ],
     [
