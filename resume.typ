@@ -168,7 +168,7 @@
 
 #giac( 
   "GIAC Certified",
-  "Cloud Security Automation (GCSA), SANS Advisory Board Member"
+  "SANS Cloud Security Automation (GCSA), SANS Advisory Board Member"
 )
 #comptia(
   "CompTIA Certified",
