@@ -128,20 +128,19 @@
   datetime.today(),
 )
 #set text(size: 9pt)
-*Architecture & Platform Engineering* *(*Technical Lead*)*
+*Architecture & Platform Engineering* *(*Security Lead*)*
 #set text(size: 10pt)
 
-
 - Designed and operated a cloud-native internal platform supporting *65 repositories* and *19 production microservices*, enabling secure *self-service* infrastructure and consistent delivery across domains.
-- Built and maintained an enterprise *Terraform* module ecosystem with *36 reusable modules*, defining core AWS infrastructure patterns through versioned, testable code bases.
-- Architected private *EKS* clusters with *Fargate* and IRSA, using secure-by-default configurations and *namespace-level isolation* to support *multi-tenant* workloads at scale.
+- Led cross-team *infrastructure security initiatives* from design through delivery, owning technical outcomes across cloud and Kubernetes platforms.
+- Built and maintained an enterprise *Terraform* module ecosystem with *36 reusable modules*, defining core AWS infrastructure patterns through versioned, testable code.
+- Architected private *EKS* clusters with *Fargate* and *IRSA*, applying Kubernetes hardening, namespace isolation, and secure-by-default controls for *multi-tenant* workloads.
 - Established *golden paths* and *paved roads* for infrastructure and CI/CD, reducing developer friction and eliminating ad hoc provisioning.
 - Created a *GitHub Actions* platform with *65 reusable composite actions*, standardizing build, test, security scanning, and deployment workflows as shared platform primitives across services.
-- Implemented *policy-as-code* guardrails using Terraform validation and *Kubernetes admission controls*, embedding security, compliance, and cost awareness into the platform layer.
-- Led *GitOps* adoption with *ArgoCD*, using ApplicationSets to manage multi-environment Kubernetes deployments with automated reconciliation and rollback.
-- Built shared *observability* foundations including centralized audit logging, metrics, dashboards, and alerting used by both *platform and service teams* to support operational excellence and compliance.
+- Drove *security reviews* for infrastructure changes, identifying systemic risks in Terraform, Kubernetes, and cloud configurations before production deployment.
+- Developed *secure patterns* and reference implementations using *policy-as-code*, Terraform validation, and Kubernetes admission controls.
 - Designed a multi-account AWS *hub-and-spoke architecture* with secure cross-account access patterns, automated IAM role provisioning, and zero-trust networking controls.
-- Partnered directly with product engineering teams to deliver *platform abstractions* that improved delivery speed, reliability, and developer satisfaction.
+- Partnered with *SRE*, *Infrastructure*, and *Product Engineering* teams to integrate security into platform services and deployment pipelines.
 
 #work-experience(
   "Security Analyst",
