@@ -121,7 +121,7 @@
 == #ti-briefcase-filled() WORK EXPERIENCE
 
 #work-experience(
-  "IT Security Manager (Architecture & Platform Engineering",
+  "IT Security Manager - Architecture & Platform",
   "Administrative Office of the Courts",
   "Atlanta, GA",
   datetime(year: 2025, month: 05, day: 01),
