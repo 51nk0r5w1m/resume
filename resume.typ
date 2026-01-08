@@ -121,20 +121,23 @@
 == #ti-briefcase-filled() WORK EXPERIENCE
 
 #work-experience(
-  "IT Security Manager",
+  "IT Security Manager (Architecture & Platform Engineering",
   "Administrative Office of the Courts",
   "Atlanta, GA",
   datetime(year: 2025, month: 05, day: 01),
   datetime.today(),
 )
 
-- Lead Application Security for a statewide multi-tenant Court Case Management SaaS, integrating *threat modeling*, *secure design reviews*, and *secure coding practices* to reduce downstream security defects. 
-- Conduct manual *security testing of web and API components*, identifying critical issues such as a public Odoo (list_db) endpoint, an exposed (.git) directory, and a Django REST registration flaw enabling privilege escalation through reusable OTPs and writable account fields. Built PoCs to demonstrate unauthorized account creation and guided remediation by enforcing server side validation.
-- Apply *OWASP ASVS*, *WSTG*, and *Top 10* standards for architecture and code reviews, authentication logic, authorization boundaries, and data handling paths to enforce security baselines across microservices.
-- Analyze and secure *OAuth 2.0*, *OIDC*, and *JWT* workflows,ensuring strong token handling and tenant isolation.
-- Collaborate with roughly two hundred architects and developers (AWS + Slalom) to capture *security requirements* early and ensure consistent *access control*, *identity flows*, *logging*, and *data protection*.
-- Author detailed *vulnerability reports*, *PoCs*, and *developer guidance* for high impact findings, improving fix quality, reducing reintroduction of insecure patterns, and guiding policy automation.
-- *Tools & Tech*: Burp Suite, ZAP, Semgrep, OPA, Terraform, Github Actions, Docker, K8s, HCP Vault, ArgoCD, Python, Bash, Go, AWS (IAM, IRSA, EKS, ECS, VPC, Lambda, API Gateway, RDS, S3, CloudTrail, CloudWatch).
+- Designed and operated a cloud-native internal platform supporting *65 repositories* and *19 production microservices*, enabling secure *self-service* infrastructure and consistent delivery across multiple engineering teams.
+- Built and maintained an enterprise *Terraform* module ecosystem with *36 reusable modules*, core *AWS* infrastructure patterns across environments and accounts.
+- Architected private *EKS* clusters with *Fargate* and IRSA, using secure-by-default configurations to support *multi-tenant* workloads at scale.
+- Established *golden paths* and *paved roads* for infrastructure and CI/CD, reducing developer friction and eliminating ad hoc provisioning.
+- Created a *GitHub Actions* platform with *65 reusable composite actions*, standardizing build, test, security scanning, and deployment workflows across services.
+- Implemented *policy-as-code* guardrails using Terraform validation and Kubernetes controls to embed security, compliance, and cost reporting into the platform layer.
+- Led *GitOps* adoption with *ArgoCD*, using ApplicationSets to manage multi-environment Kubernetes deployments with automated reconciliation and rollback.
+- Built shared *observability* foundations including centralized audit logging, metrics, dashboards, and alerting to support operational excellence and compliance requirements.
+- Designed a multi-account AWS *hub-and-spoke architecture* with secure cross-account access patterns, automated IAM role provisioning, and zero-trust networking controls.
+- Partnered directly with product engineering teams to deliver *platform abstractions* that improved delivery speed, reliability, and developer satisfaction.
 
 #work-experience(
   "Security Analyst",
