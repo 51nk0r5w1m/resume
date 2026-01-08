@@ -121,21 +121,25 @@
 == #ti-briefcase-filled() WORK EXPERIENCE
 
 #work-experience(
-  "IT Security Manager (Architecture & Platform)",
+  "IT Security Manager",
   "Administrative Office of the Courts",
   "Atlanta, GA",
   datetime(year: 2025, month: 05, day: 01),
   datetime.today(),
 )
+#set text(size: 9pt)
+*Architecture & Platform Engineering* (Technical Lead)
+#set text(size: 10pt)
 
-- Designed and operated a cloud-native internal platform supporting *65 repositories* and *19 production microservices*, enabling secure *self-service* infrastructure and consistent delivery across multiple engineering teams.
-- Built and maintained an enterprise *Terraform* module ecosystem with *36 reusable modules*, core *AWS* infrastructure patterns across environments and accounts.
-- Architected private *EKS* clusters with *Fargate* and IRSA, using secure-by-default configurations to support *multi-tenant* workloads at scale.
+
+- Designed and operated a cloud-native internal platform supporting *65 repositories* and *19 production microservices*, enabling secure *self-service* infrastructure and consistent delivery across domains.
+- Built and maintained an enterprise *Terraform* module ecosystem with *36 reusable modules*, defining core AWS infrastructure patterns through versioned, testable code bases.
+- Architected private *EKS* clusters with *Fargate* and IRSA, using secure-by-default configurations and *namespace-level isolation* to support *multi-tenant* workloads at scale.
 - Established *golden paths* and *paved roads* for infrastructure and CI/CD, reducing developer friction and eliminating ad hoc provisioning.
-- Created a *GitHub Actions* platform with *65 reusable composite actions*, standardizing build, test, security scanning, and deployment workflows across services.
-- Implemented *policy-as-code* guardrails using Terraform validation and Kubernetes controls to embed security, compliance, and cost reporting into the platform layer.
+- Created a *GitHub Actions* platform with *65 reusable composite actions*, standardizing build, test, security scanning, and deployment workflows as shared platform primitives across services.
+- Implemented *policy-as-code* guardrails using Terraform validation and *Kubernetes admission controls*, embedding security, compliance, and cost awareness into the platform layer.
 - Led *GitOps* adoption with *ArgoCD*, using ApplicationSets to manage multi-environment Kubernetes deployments with automated reconciliation and rollback.
-- Built shared *observability* foundations including centralized audit logging, metrics, dashboards, and alerting to support operational excellence and compliance requirements.
+- Built shared *observability* foundations including centralized audit logging, metrics, dashboards, and alerting used by both *platform and service teams* to support operational excellence and compliance.
 - Designed a multi-account AWS *hub-and-spoke architecture* with secure cross-account access patterns, automated IAM role provisioning, and zero-trust networking controls.
 - Partnered directly with product engineering teams to deliver *platform abstractions* that improved delivery speed, reliability, and developer satisfaction.
 
@@ -150,7 +154,6 @@
 - Built threat informed *detections* and cloud attack scenarios using *Stratus Red Team*, *Prowler, TrailDiscover*, *Pacu*, and custom research to identify misconfigurations and logic flaws.
 - Deployed *Wiz* across *AWS Organizations* and *CI pipelines*, resolving 200(+) high risk issues within the year.
 - Designed and operated the agency wide *vulnerability management program*, defining classification workflows, reporting, and SLAs. Reduced MTTR for critical and high risk vulnerabilities to 5.5 days.
-- Authored incident response procedures for *IAM misuse*, *container compromise*, and *exposed credentials* enabling consistent response across cloud and application environments.
 
 == #ti-book() EDUCATION & CERTIFICATIONS
 
