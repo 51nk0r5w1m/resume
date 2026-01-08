@@ -128,7 +128,7 @@
   datetime.today(),
 )
 #set text(size: 9pt)
-*Architecture & Platform Engineering* (Technical Lead)
+*Architecture & Platform Engineering* *(*Technical Lead*)*
 #set text(size: 10pt)
 
 
