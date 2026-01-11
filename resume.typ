@@ -131,16 +131,14 @@
 *Architecture & Platform Engineering* *(*Technical Security Lead*)*
 #set text(size: 10pt)
 
-- Designed and operated a cloud-native internal platform supporting *65 repositories* and *19 production microservices*, enabling secure *self-service* infrastructure and consistent delivery across domains.
-- Led cross-team *infrastructure security initiatives* from design through delivery, owning technical outcomes across cloud and Kubernetes platforms.
-- Built and maintained an enterprise *Terraform* module ecosystem with *36 reusable modules*, defining core AWS infrastructure patterns through versioned, testable code.
-- Architected private *EKS* clusters with *Fargate* and *IRSA*, applying Kubernetes hardening, namespace isolation, and secure-by-default controls for *multi-tenant* workloads.
-- Established *golden paths* and *paved roads* for infrastructure and CI/CD, reducing developer friction and eliminating ad hoc provisioning.
-- Created a *GitHub Actions* platform with *65 reusable composite actions*, standardizing build, test, security scanning, and deployment workflows as shared platform primitives across services.
-- Drove *security reviews* for infrastructure changes, identifying systemic risks in Terraform, Kubernetes, and cloud configurations before production deployment.
-- Developed *secure patterns* and reference implementations using *policy-as-code*, Terraform validation, and Kubernetes admission controls.
-- Designed a multi-account AWS *hub-and-spoke architecture* with secure cross-account access patterns, automated IAM role provisioning, and zero-trust networking controls.
-- Partnered with *SRE*, *Infrastructure*, and *Product Engineering* teams to integrate security into platform services and deployment pipelines.
+
+- Led *Application Security* for a statewide *multi-tenant Court Case Management SaaS*, integrating *threat modeling*, *secure design reviews*, and *secure coding practices* to reduce downstream security defects.
+- Conducted manual *security testing* of web and API components, identifying critical issues such as a public *Odoo (list_db)* endpoint, an exposed *(.git)* directory, and a *Django REST registration* flaw enabling privilege escalation through reusable OTPs and writable account fields. Built PoCs and guided remediation by enforcing server-side validation.
+- Applied *OWASP ASVS*, *WSTG*, and *Top 10* standards for architecture and code reviews to enforce authentication, authorization, and data-handling baselines across microservices.
+- Analyzed and secured *OAuth 2.0*, *OIDC*, and *JWT* workflows, ensuring strong token handling and cross-tenant isolation.
+- Collaborated with ~200 architects and developers (AWS + Slalom) to capture security requirements early and ensure consistent access control, identity flows, logging, and data protection.
+- Authored detailed *vulnerability reports*, *PoCs*, and *developer guidance* for high-impact findings, improving fix quality, preventing reintroduction of insecure patterns, and guiding policy automation.
+- *Tools & Tech*: Burp Suite, ZAP, Semgrep, OPA, Terraform, GitHub Actions, Docker, Kubernetes, HCP Vault, ArgoCD, Python, Bash, Go, AWS (*IAM, IRSA, EKS, ECS, VPC, Lambda, API Gateway, RDS, S3, CloudTrail, CloudWatch*).
 
 #work-experience(
   "Security Analyst",
@@ -153,6 +151,7 @@
 - Built threat informed *detections* and cloud attack scenarios using *Stratus Red Team*, *Prowler, TrailDiscover*, *Pacu*, and custom research to identify misconfigurations and logic flaws.
 - Deployed *Wiz* across *AWS Organizations* and *CI pipelines*, resolving 200(+) high risk issues within the year.
 - Designed and operated the agency wide *vulnerability management program*, defining classification workflows, reporting, and SLAs. Reduced MTTR for critical and high risk vulnerabilities to 5.5 days.
+- Authored incident response procedures for *IAM misuse*, *container compromise*, and *exposed credentials* enabling consistent response across cloud and application environments.
 
 == #ti-book() EDUCATION & CERTIFICATIONS
 
