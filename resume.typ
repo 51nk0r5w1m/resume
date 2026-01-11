@@ -1,6 +1,7 @@
 #import "@preview/use-tabler-icons:0.15.0": *
 
 #let today = datetime.today()
+#let last-updated = datetime(year: 2026, month: 01, day: 11)
 
 #set page(
   paper: "us-letter",
@@ -8,7 +9,7 @@
   footer: context {
     set align(center)
     [
-      _Last updated #datetime.display(today, "[day padding:none] [month repr:long] [year]")_
+      _Last updated #datetime.display(last-updated, "[day padding:none] [month repr:long] [year]")_
     ]
   },
 )
