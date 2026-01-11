@@ -121,14 +121,14 @@
 == #ti-briefcase-filled() WORK EXPERIENCE
 
 #work-experience(
-  "IT Security Manager",
+  "Cloud Security Manager",
   "Administrative Office of the Courts",
   "Atlanta, GA",
   datetime(year: 2025, month: 05, day: 01),
   datetime.today(),
 )
 #set text(size: 9pt)
-*Architecture & Platform Engineering* *(*Security Lead*)*
+*Architecture & Platform Engineering* *(*Technical Security Lead*)*
 #set text(size: 10pt)
 
 - Designed and operated a cloud-native internal platform supporting *65 repositories* and *19 production microservices*, enabling secure *self-service* infrastructure and consistent delivery across domains.
