@@ -9,7 +9,6 @@
   footer: context {
     set align(center)
     [
-      _Last updated #datetime.display(today, "[day padding:none] [month repr:long] [year]")_
       _Last updated #datetime.display(last-updated, "[day padding:none] [month repr:long] [year]")_
     ]
   },
