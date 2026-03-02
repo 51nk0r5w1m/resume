@@ -33,7 +33,7 @@ jobs:
           repository: 51nk0r5w1m/5o5.sh
 
       - name: Update the resume
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: resume
           path: content/portfolio
